@@ -1,28 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<table>
-    <th>테이블 만들기</th>
+<div id="head">
+    <div id="login" align="right">
+        <span>
+            <input type="text">ID</input>
+            <input type="password">PW</input>
+            <input type="button" id="submit" value="로그인">
+            <input type="button" id="join" value="회원가입">
+            <input type="button" id="forgot" value="비밀번호 찾기">
+        </span>
+    </div>
+    <div id="top_img">
+        <img src="img/code.jpg" width="100%", height="300">
+    </div>
+    상단 탭
+</div>
+<ul>
+
+    <li>index</li>
+    <li>게시물명</li>
+    <li>유저명</li>
+    <li>작성시간</li>
+</ul>
+</div>
+<div id="main">
+<table align="center" class="table">
+    <th align="center"> 게시물 목록 </th>
+    <thead>
     <tr align="center" bgcolor="skyblue">
         <td>index</td>
         <td>게시물명</td>
         <td>작성자</td>
         <td>작성시간</td>
     </tr>
+    </thead>
+    <tbody>
     <tr>
 
     </tr>
+    </tbody>
 </table>
-<ul>
-    <li>index</li>
-    <li>게시물명</li>
-    <li>유저명</li>
-    <li>작성시간</li>
-</ul>
+</div>
+<div>
+
+</div>
 <br>
 Hello Flask
 </body>
